@@ -1,0 +1,23 @@
+{ "Raspberry Pi 4 - I/O's Locais": {
+    "id": "rasp_servidor",
+    "tipo_micro": "Raspebrry Pi 4 A+ 4GB RAM",
+    "caminho_icone": "Imagens_PyQT/rasp_semgpio.png",
+    "ios": [
+        " 2", " 3", " 4", " 5", " 6", " 7", " 8", " 9",
+        " 10", " 11", " 12", " 13", " 14", " 15", " 16", " 17",
+        " 18", " 19", " 20", " 21", " 22", " 23", " 24", " 25",
+        " 26", " 27"
+    ]
+  } ,
+  "Esp 32 - Quarto": {
+    "id": "esp_32_quarto",
+    "tipo_micro": "Esp 32 WROOM 38 Pinos",
+    "caminho_icone": "Imagens_PyQT/esp32.png",
+    "ios": [
+        "2", "3", "4", "5", "6", "7", "8", "9",
+        "10", "11", "12", "13", "14", "15", "16", "17",
+        "18", "19", "20", "21", "22", "23", "24", "25",
+        "26", "27", "28" , "29" , "30" , "31" , "32" , "33"
+    ]
+  }
+}

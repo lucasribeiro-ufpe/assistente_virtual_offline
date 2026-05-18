@@ -1,0 +1,385 @@
+{
+  "wake_word_default": "assistente",
+  "keyword_command": "comando",
+  "acoes": {
+    "ligar": [
+      "ligar",
+      "liga",
+      "ligado",
+      "ligada",
+      "ligava",
+      "acender",
+      "ativar",
+      "iniciar",
+      "energizar"
+    ],
+    "desligar": [
+      "desligar",
+      "desliga",
+      "desligado",
+      "desligada",
+      "ligava",
+      "apagar",
+      "desativar",
+      "parar",
+      "cortar"
+    ],
+    "abrir": [
+      "abrir",
+      "destravar",
+      "liberar"
+    ],
+    "fechar": [
+      "fechar",
+      "travar",
+      "bloquear"
+    ],
+    "aumentar": [
+      "aumentar",
+      "subir",
+      "elevar",
+      "mais"
+    ],
+    "diminuir": [
+      "diminuir",
+      "baixar",
+      "reduzir",
+      "menos"
+    ],
+    "consultar": [
+      "consultar",
+      "ver",
+      "mostrar",
+      "qual",
+      "quanto",
+      "status",
+      "estado"
+    ]
+  },
+  "objetos": {
+    "luz": {
+      "sinonimos": [
+        "luz",
+        "luis",
+        "lampada",
+        "lâmpada",
+        "iluminacao",
+        "iluminação"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "led": {
+      "sinonimos": [
+        "led",
+        "fita led",
+        "strip led",
+        "rgb"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "tomada": {
+      "sinonimos": [
+        "tomada",
+        "plug",
+        "smart plug"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "tv": {
+      "sinonimos": [
+        "tv",
+        "televisao",
+        "televisão"
+      ],
+      "requer_local": false,
+      "permitir_geral": true
+    },
+    "ar_condicionado": {
+      "sinonimos": [
+        "ar condicionado",
+        "ac",
+        "climatizador"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "ventilador": {
+      "sinonimos": [
+        "ventilador",
+        "fan",
+	"vento"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "cortina": {
+      "sinonimos": [
+        "cortina",
+        "persiana",
+        "blackout"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "portao": {
+      "sinonimos": [
+        "portao",
+        "portão",
+        "garagem"
+      ],
+      "requer_local": false,
+      "permitir_geral": true
+    },
+    "porta": {
+      "sinonimos": [
+        "porta",
+        "fechadura",
+        "tranca"
+      ],
+      "requer_local": true,
+      "permitir_geral": false
+    },
+    "alarme": {
+      "sinonimos": [
+        "alarme",
+        "seguranca",
+        "segurança"
+      ],
+      "requer_local": false,
+      "permitir_geral": true
+    },
+    "camera": {
+      "sinonimos": [
+        "camera",
+        "câmera",
+        "cftv"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "som": {
+      "sinonimos": [
+        "som",
+        "musica",
+        "música",
+        "caixa de som",
+        "home theater"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "cafeteira": {
+      "sinonimos": [
+        "cafeteira",
+        "cafe",
+        "café"
+      ],
+      "requer_local": false,
+      "permitir_geral": true
+    },
+    "geladeira": {
+      "sinonimos": [
+        "geladeira",
+        "refrigerador"
+      ],
+      "requer_local": false,
+      "permitir_geral": true
+    },
+    "microondas": {
+      "sinonimos": [
+        "microondas",
+        "micro-ondas"
+      ],
+      "requer_local": false,
+      "permitir_geral": true
+    },
+    "chuveiro": {
+      "sinonimos": [
+        "chuveiro",
+        "ducha"
+      ],
+      "requer_local": true,
+      "permitir_geral": false
+    },
+    "bomba": {
+      "sinonimos": [
+        "bomba",
+        "motobomba"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "valvula": {
+      "sinonimos": [
+        "valvula",
+        "válvula",
+        "solenoide",
+        "solenóide"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "compressor": {
+      "sinonimos": [
+        "compressor"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "esteira": {
+      "sinonimos": [
+        "esteira",
+        "transportador"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "motor": {
+      "sinonimos": [
+        "motor",
+        "moto-redutor",
+        "motoredutor"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "painel": {
+      "sinonimos": [
+        "painel",
+        "quadro",
+        "qdc",
+        "qgbt"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "sirene": {
+      "sinonimos": [
+        "sirene",
+        "buzina"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    },
+    "sauna": {
+      "sinonimos": [
+        "Sauna"
+      ],
+      "requer_local": true,
+      "permitir_geral": true
+    }
+  },
+  "locais": {
+    "geral": [
+      "geral",
+      "tudo",
+      "todos",
+      "todas",
+      "casa toda",
+      "ambiente todo"
+    ],
+    "sala": [
+      "sala",
+      "sala de estar"
+    ],
+    "quarto": [
+      "quarto",
+      "meu quarto",
+      "suite",
+      "suíte"
+    ],
+    "cozinha": [
+      "cozinha"
+    ],
+    "banheiro": [
+      "banheiro",
+      "wc",
+      "toalete"
+    ],
+    "area_servico": [
+      "area de servico",
+      "área de serviço",
+      "lavanderia"
+    ],
+    "varanda": [
+      "varanda",
+      "sacada"
+    ],
+    "garagem": [
+      "garagem"
+    ],
+    "corredor": [
+      "corredor"
+    ],
+    "entrada": [
+      "entrada",
+      "hall"
+    ],
+    "escritorio": [
+      "escritorio",
+      "escritório",
+      "home office"
+    ],
+    "jardim": [
+      "jardim",
+      "quintal"
+    ],
+    "area_gourmet": [
+      "area gourmet",
+      "área gourmet",
+      "churrasqueira"
+    ],
+    "galpao": [
+      "galpao",
+      "galpão"
+    ],
+    "linha1": [
+      "linha 1",
+      "linha um",
+      "linha1"
+    ],
+    "linha2": [
+      "linha 2",
+      "linha dois",
+      "linha2"
+    ],
+    "tanque1": [
+      "tanque 1",
+      "tanque um",
+      "tanque1"
+    ],
+    "tanque2": [
+      "tanque 2",
+      "tanque dois",
+      "tanque2"
+    ],
+    "painel1": [
+      "painel 1",
+      "painel um",
+      "painel1"
+    ],
+    "painel2": [
+      "painel 2",
+      "painel dois",
+      "painel2"
+    ],
+    "sala_maquinas": [
+      "sala de maquinas",
+      "sala de máquinas",
+      "casa de maquinas",
+      "casa de máquinas"
+    ],
+    "compressor_room": [
+      "sala do compressor",
+      "casa do compressor",
+      "compressor room"
+    ],
+    "casa_bombas": [
+      "casa de bombas",
+      "sala de bombas"
+    ]
+  }
+}

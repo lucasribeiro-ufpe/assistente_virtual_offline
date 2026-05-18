@@ -1,0 +1,6 @@
+PARA BAIXAR AS FONTES, PEGUE OS ARQUIVOS TTF E BAIXE NO SISTEMA, CASO ESTEJA NA RASPBERRY PI, UTILIZE OS SEGUINTES COMANDOS:
+
+1. "sudo mkdir /usr/share/fonts/Inter" - Cria o diretório Inter na pasta de fontes do sistema
+2. "sudo cp /home/lucas/Projeto_TCC/Inter/static/Inter_*.ttf /usr/share/fonts/Inter" - Copia a pasta das fontes para o diretório criado (mude conforme o caminho da pasta dos ttf)
+3. "fc-cache -fv" - Atualiza o Cachê das fontes
+4. "fc-list | grep Inter" - Teste, ver se a suas fontes estão no sistema

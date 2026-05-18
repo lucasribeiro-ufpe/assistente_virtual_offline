@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="imagens">
+    <file>imagens_Pyqt/interruptor_darkmode_grande.png</file>
+    <file>imagens_Pyqt/esp32.png</file>
+    <file>imagens_Pyqt/rasp_semgpio.png</file>
+    <file>imagens_Pyqt/—Pngtree—back icon_4627630.png</file>
+    <file>imagens_Pyqt/RaspVetor (2).png</file>
+    <file>imagens_Pyqt/png-clipart-computer-icons-user-computer-rectangle-computer-thumbnail.png</file>
+    <file>imagens_Pyqt/fundo_sem nada.png</file>
+    <file>imagens_Pyqt/pngtree-settings-line-icon-png-image_9021668.png</file>
+    <file>imagens_Pyqt/fundo_assistente.png</file>
+    <file>imagens_Pyqt/Untitled design (1).png</file>
+    <file>imagens_Pyqt/fundo1.png</file>
+    <file>imagens_Pyqt/teste_fundo.jpg</file>
+  </qresource>
+</RCC>

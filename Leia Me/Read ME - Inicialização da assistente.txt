@@ -1,0 +1,13 @@
+PARA INICIAR A ASSISTENTE VIRTUAL OFFLINE ALGUNS PASSOS SÃO NECESSÁRIOS, SÃO ELES:
+
+1.Obter o Python V3.9 ou superior (Checar instalação com o comando 'python --version')
+2.Instalar bibliotecas necessárias 
+3.Abrir o terminal de comandos na pasta "Arquivos_fonte" (Exemplo de comando 'cd home/admin/Assistente_virtual/Arquivos_fonte')
+4.Executar o programa "main.py" na pasta "Arquivos_fonte" (Comando 'python main.py')
+
+
+OBSERVAÇÃO 1: Os modelos VOSK e da LLM precisam ser instalados e apontados no programa "main.py", links dos modelos utilizados: 
+VOSK: https://alphacephei.com/vosk/models/vosk-model-pt-fb-v0.1.1-20220516_2113.zip 
+LLM(Gemma portuguese Luana 2B): https://huggingface.co/rhaymison/gemma-portuguese-luana-2b
+
+OBSERVAÇÃO 2: Ao executar pela primeira vez, os modelos demoram de 2-5 minutos para serem carregados e as primeiras respostas são mais lentas a depender da memória RAM do sistema utilizado

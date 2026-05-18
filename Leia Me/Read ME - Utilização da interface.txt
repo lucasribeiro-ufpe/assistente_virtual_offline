@@ -1,0 +1,23 @@
+-- Indicadores da Interface
+"Ouvindo" - Indica que o sistema está aguardando comandos/interações de voz em modo contínuo.
+"Nome da assistente" - Indica que o sistema está aguardando comandos/interações de voz que contenham o nome da assistente. 
+
+-- Alterar nome da assistente
+Para alterar o nome da assistente, no modo de ouvido seletivo clique em cima do nome da assistente em amarelo, digite o nome e clique em salvar.
+
+-- Chat / Histórico:
+Área utilizada para mostrar:
+1.Texto reconhecido pelo sistema;
+2.Respostas da assistente;
+3.Comandos executados e configuração do sistema.
+
+-- Configurando um Pino GPIO
+1.Abra a tela de dispositivos;
+2.Clique em "Adicionar Dispositivo";
+3.Escolha o GPIO desejado;
+4.Defina o nome do dispositivo;
+5.Salve a configuração.
+
+EXTRA: Para alterar icone sinotico, id, ios do micro etc. Use o arquivo na pasta Arquivos_fonte/Arquivos_JSON/clientes_mqtt.json
+
+EXTRA: Para remover, alterar e até adicionar "manualmente" comandos, utilize o arquivo na pasta Arquivos_fonte/Arquivos_JSON/comandos_base.json

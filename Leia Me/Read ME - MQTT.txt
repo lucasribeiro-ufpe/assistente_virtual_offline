@@ -1,0 +1,7 @@
+PARA RODAR O BROKER MQTT EM SEU SISTEMA LOCAL, RODE O MQTT COM O ARQUIVO CONFIG QUE ESTÁ NA PASTA "DOCUMENTOS DE COMISSIONAMENTO", SEGUINDO OS SEGUINTES PASSOS:
+
+1. Abra o PowerShell (Windows) ou terminal comandos com privilégio de administrador
+2. (Para windows, em raspberry pular para passo 3) No Terminal, aponte a pasta onde você instalou o mosquito (EX: cd "C:\Program Files\mosquitto")
+3. Rode o MQTT com o "config" certo (Liberando a porta 1883) utilizando o seguinte comando: ' .\mosquitto.exe -v -c "C:\mosquitto\mosquitto.conf" '(Windows) ou 'mosquitto -v -c "/home/admin/mosquitto/mosquitto.conf' (Raspberry) - Aponte para o caminho correto do arquivo de configuração que
+
+EXTRA: Na Raspberry, geralmente o mosquitto já encontra-se ativo ao iniciar o sistema, nesse caso, é necessário parar o mosquitto com o o comando 'sudo systemctl stop mosquitto'antes de iniciá-lo com (passo 3)
